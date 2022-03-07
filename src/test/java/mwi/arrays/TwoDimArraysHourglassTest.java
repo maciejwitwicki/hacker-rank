@@ -7,7 +7,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.util.Lists.list;
 
-class TwoDimArrasHourglassTest {
+class TwoDimArraysHourglassTest {
 
     @Test
     void testExample1() {
@@ -20,7 +20,7 @@ class TwoDimArrasHourglassTest {
                 list(0, 0, 1, 2, 4, 0)
         );
 
-        int result = TwoDimArrasHourglass.hourglassSum(input);
+        int result = TwoDimArraysHourglass.hourglassSum(input);
 
         assertThat(result).isEqualTo(28);
     }
